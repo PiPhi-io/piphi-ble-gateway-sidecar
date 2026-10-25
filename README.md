@@ -57,6 +57,6 @@ The runtime listens on port `4210` by default and exposes the common PiPhi runti
 ## Docker
 
 ```bash
-docker build -t docker.io/piphinetwork/piphi-ble-gateway-sidecar:0.1.0 .
-docker run --rm -p 4210:4210 docker.io/piphinetwork/piphi-ble-gateway-sidecar:0.1.0
+docker build -t docker.io/piphinetwork/piphi-ble-gateway-sidecar:0.1.1 .
+docker run --rm -p 4210:4210 docker.io/piphinetwork/piphi-ble-gateway-sidecar:0.1.1
 ```
